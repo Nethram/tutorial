@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+<Say> Welcome to Nethram conference </Say>
+  <Dial>
+    <Conference waitUrl ="http://twimlets.com/holdmusic?Bucket=com.twilio.music.rock">
+		Nethram
+	</Conference>
+  </Dial>
+</Response>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+<Say> Thank you for calling. This call is being recorded. </Say>
+<Say> Forwarding your call now </Say>
+    <Dial record="record-from-answer">4087301892</Dial>
+</Response>

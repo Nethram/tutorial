@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Say> Connecting your call with Costco  or Walmart</Say>
+    <Dial hangupOnStar ="true">
+	  <Number> 4087301892 </Number>
+	  <Number> 4085300111 </Number>
+	</Dial>
+	<Say> Done with simultaneous call. Calling Costco Now </Say>
+	<Dial hangupOnStar ="true">
+	  <Number> 4087301892 </Number>
+	</Dial>
+	<Say> Done with both calls. </Say> 
+</Response>

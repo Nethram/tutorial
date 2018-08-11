@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Say> Connecting your call with Costco </Say>
+    <Dial hangupOnStar ="true">4087301892</Dial>
+	<Say> Connecting your call with Walmart </Say>
+	<Dial hangupOnStar ="true">4085300111</Dial>
+	<Say> Done with your call. Hanging up </Say>
+</Response>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Say> This call will be recorded</Say>
+    <Dial record ="record-from-answer">
+	  <Number url="whisper.xml"> 3024404084 </Number>
+	</Dial>
+</Response>

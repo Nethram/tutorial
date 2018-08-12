@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+	<Say> Southwest flight status for flight 5 9 8 4 </Say>
+	<Say> Calling southwest </Say>
+	<Dial hangupOnStar ="true">
+		<Number url="chat.xml" sendDigits="w5984w2ww">
+			8887928747
+		</Number>
+	</Dial>
+	<Say> Calling southwest the second time</Say>
+	<Dial hangupOnStar ="true" timeLimit="20" record="record-from-answer">
+		<Number url="chat.xml" sendDigits="w5984w2ww">
+			8887928747
+		</Number>
+	</Dial>
+	<Say> Calling your friend </Say>
+	<Dial >
+	  <Number url="whisper.xml"> 3024404084 </Number>
+	</Dial>
+</Response>

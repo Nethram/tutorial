@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+<Say> Southwest flight status for flight 5 9 8 4 </Say>
+    <Dial >
+        <Number url="chat.xml" sendDigits="w5984w2ww">
+            8887928747
+        </Number>
+    </Dial>
+</Response>

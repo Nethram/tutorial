@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Say>Welcome to Kevin's Doggie Day care</Say>
+	<Gather input="speech dtmf" hints="new customer,billing,dog with us,directions" action="handle_input.php" numDigits="1" timeout="7" speechTimeout="auto">
+		<Say> Please press 1 or say new customer if you are a new customer</Say>
+		<Pause/>
+		<Say> Please press 2 or say billing if you would like to reach billing </Say>
+		<Pause/>
+		<Say> Please press 3 or say dog with us if you have left your dog with us today </Say>
+		<Pause/>
+		<Say> Please press 4 or say directions if you would like to hear our directions </Say>
+	</Gather>
+	<Say> Sorry. We have not recevied any input from you. Please try again </Say>
+	<Redirect/>
+</Response>

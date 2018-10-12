@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Say>Welcome to Kevin's Doggie Day care</Say>
+	<Gather action="handle_input.php" numDigits="1">
+		<Say> Please press 1 if you are a new customer</Say>
+		<Say> Please press 2 if you would like to reach billing </Say>
+		<Say> Please press 3 if you have left your dog with us today </Say>
+		<Say> Please press 4 if you would like to hear our directions </Say>
+	</Gather>
+	<Say> Sorry. We have not recevied any input from you. Please try again </Say>
+	<Redirect/>
+</Response>

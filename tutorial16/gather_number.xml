@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+	<Gather action="dial_number.php" numDigits="10">
+		<Say> Please dail the 10 digit number to call</Say>
+	</Gather>
+	<Say> Sorry. We have not recevied any input from you. Please try again </Say>
+	<Redirect/>
+</Response>

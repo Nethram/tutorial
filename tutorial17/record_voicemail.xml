@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Say>Please leave a message after the beep. Press pound when done</Say>
+	<Record action="record_response.php" maxLength="120"/>
+	<Say>Sorry we did not hear your recording</Say>
+</Response>
